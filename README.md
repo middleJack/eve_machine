@@ -4,7 +4,7 @@ Windows 10 setup to just run EvE online
 
 # Removing Cortana
 1. Powershell
-2. Run:
+2. Run as administrator:
 ```bash
 Get-AppxPackage | Remove-AppxPackage
 Get-AppxProvisionedPackage -Online | Remove-AppxProvisionedPackage -online
